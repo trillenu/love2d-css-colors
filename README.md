@@ -10,7 +10,7 @@ css(color, alpha)
 ### Example
 ```lua
 function love.draw()
-love.graphics.setColor(css("Gray", 1))
+love.graphics.setColor(css("Green", 1))
 love.graphics.rectangle("fill", 0, 0, 40, 40)
 ..
 end
