@@ -7,8 +7,10 @@ A simple function for LÖVE that converts CSS color names to RGB/A. For a full l
 css(color, alpha)
 ```
 
-### Example
+### Example code 
 ```lua
+require(css-colors)
+
 function love.draw()
 love.graphics.setColor(css("Green", 1))
 love.graphics.rectangle("fill", 0, 0, 40, 40)
