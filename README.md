@@ -9,7 +9,7 @@ css(color, alpha)
 
 ### Example code 
 ```lua
-require(css-colors)
+require("css-colors")
 
 function love.draw()
 love.graphics.setColor(css("Green", 1))
