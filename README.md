@@ -1,6 +1,6 @@
 # love2d-css-colors
  
-A simple function for LÖVE that converts CSS color names to RGB/A. For a full list of CSS colors, see [https://www.w3schools.com/cssref/css_colors.asp](https://www.w3schools.com/cssref/css_colors.asp)
+A simple function for LÖVE that converts CSS color names to RGB/A. For a full list of CSS colors, see [https://www.w3schools.com/cssref/css_colors.asp](https://www.w3schools.com/cssref/css_colors.asp).
 <br>
 ### Usage
 ```lua
