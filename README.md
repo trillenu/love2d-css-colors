@@ -12,7 +12,7 @@ css(color, alpha)
 require("css-colors")
 
 function love.draw()
-love.graphics.setColor(css("Green", 1)) rgba 0, 128, 0, 1
+love.graphics.setColor(css("Green", 1)) --rgba 0, 128, 0, 1
 love.graphics.rectangle("fill", 0, 0, 40, 40)
 ..
 end
