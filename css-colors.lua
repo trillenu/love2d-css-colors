@@ -1,426 +1,429 @@
+-- Tristan Vicente Hernandez, 2020
+
 function css(color, alpha)
+  color = string.lower(color)
   alpha = alpha or 1 --alpha channel
 
-  if color == "AliceBlue"
+
+  if color == "aliceblue"
   then return {240/255, 248/255, 255/255, alpha}
 
-elseif color == "AntiqueWhite"
+elseif color == "antiquewhite"
   then return {250/255, 235/255, 215/255, alpha}
 
-elseif color == "Aqua"
+elseif color == "aqua"
   then return {0/255, 255/255, 255/255, alpha}
 
-elseif color == "AquaMarine"
+elseif color == "aquamarine"
   then return {127/255, 255/255, 212/255, alpha}
 
-elseif color == "Azure"
+elseif color == "azure"
   then return {240/255, 255/255, 255/255, alpha}
 
-elseif color == "Beige"
+elseif color == "beige"
   then return {245/255, 245/255, 220/255, alpha}
 
-elseif color == "Bisque"
+elseif color == "bisque"
   then return {255/255, 228/255, 196/255, alpha}
 
-elseif color == "Black"
+elseif color == "black"
   then return {0/255, 0/255, 0/255, alpha}
 
-elseif color == "BlanchedAlmond"
+elseif color == "blanchedalmond"
   then return {255/255, 235/255, 205/255, alpha}
 
-elseif color == "Blue"
+elseif color == "blue"
   then return {0/255, 0/255, 255/255, alpha}
 
-elseif color == "BlueViolet"
+elseif color == "blueviolet"
   then return {138/255, 43/255, 226/255, alpha}
 
-elseif color == "Brown"
+elseif color == "brown"
   then return {165/255, 42/255, 42/255, alpha}
 
-elseif color == "BurlyWood"
+elseif color == "burlywood"
   then return {222/255, 184/255, 135/255, alpha}
 
-elseif color == "CadetBlue"
+elseif color == "cadetblue"
   then return {95/255, 158/255, 160/255, alpha}
 
-elseif color == "Chartreuse"
+elseif color == "chartreuse"
   then return {127/255, 255/255, 0/255, alpha}
 
-elseif color == "Chocolate"
+elseif color == "chocolate"
   then return {210/255, 105/255, 30/255, alpha}
 
-elseif color == "Coral"
+elseif color == "coral"
   then return {255/255, 127/255, 80/255, alpha}
 
-elseif color == "CornflowerBlue"
+elseif color == "cornflowerblue"
   then return {100/255, 149/255, 237/255, alpha}
 
-elseif color == "Cornsilk"
+elseif color == "cornsilk"
   then return {255/255, 248/255, 220/255, alpha}
 
-elseif color == "Crimson"
+elseif color == "crimson"
   then return {220/255, 20/255, 60/255, alpha}
 
-elseif color == "Cyan"
+elseif color == "cyan"
   then return {0/255, 255/255, 255/255, alpha}
 
-elseif color == "DarkBlue"
+elseif color == "darkblue"
   then return {0/255, 0/255, 139/255, alpha}
 
-elseif color == "DarkCyan"
+elseif color == "darkcyan"
   then return {0/255, 139/255, 139/255, alpha}
 
-elseif color == "DarkGoldenRod"
+elseif color == "darkgoldenrod"
   then return {184/255, 134/255, 11/255, alpha}
 
-elseif color == "DarkGray" or color == "DarkGrey"
+elseif color == "darkgray" or color == "darkgrey"
   then return {169/255, 169/255, 169/255, alpha}
 
-elseif color == "DarkGreen"
+elseif color == "darkgreen"
   then return {0/255, 100/255, 0/255, alpha}
 
-elseif color == "DarkKhaki"
+elseif color == "darkkhaki"
   then return {189/255, 183/255, 107/255, alpha}
 
-elseif color == "DarkOliveGreen"
+elseif color == "darkolivegreen"
   then return {85/255, 107/255, 47/255, alpha}
 
-elseif color == "DarkOrange"
+elseif color == "darkorange"
   then return {255/255, 140/255, 0/255, alpha}
 
-elseif color == "DarkOrchid"
+elseif color == "darkorchid"
   then return {153/255, 50/255, 204/255, alpha}
 
-elseif color == "DarkRed"
+elseif color == "darkred"
   then return {139/255, 0/255, 0/255, alpha}
 
-elseif color == "DarkSalmon"
+elseif color == "darksalmon"
   then return {233/255, 150/255, 122/255, alpha}
 
-elseif color == "DarkSeaGreen"
+elseif color == "darkseagreen"
   then return {143/255, 188/255, 143/255, alpha}
 
-elseif color == "DarkSlateBlue"
+elseif color == "darkslateblue"
   then return {72/255, 61/255, 139/255, alpha}
 
-elseif color == "DarkSlateGray" or color == "DarkSlateGrey"
+elseif color == "darkslategray" or color == "darkslategrey"
   then return {47/255, 79/255, 79/255, alpha}
 
-elseif color == "DarkTurquoise"
+elseif color == "darkturquoise"
   then return {0/255, 206/255, 209/255, alpha}
 
-elseif color == "DarkViolet"
+elseif color == "darkviolet"
   then return {148/255, 0/255, 211/255, alpha}
 
-elseif color == "DeepPink"
+elseif color == "deeppink"
   then return {255/255, 20/255, 147/255, alpha}
 
-elseif color == "DeepSkyBlue"
+elseif color == "deepskyblue"
   then return {0/255, 191/255, 255/255, alpha}
 
-elseif color == "DimGray" or color == "DimGrey"
+elseif color == "dimgray" or color == "dimgrey"
   then return {105/255, 105/255, 105/255, alpha}
 
-elseif color == "DodgerBlue"
+elseif color == "dodgerblue"
   then return {30/255, 144/255, 255/255, alpha}
 
-elseif color == "FireBrick"
+elseif color == "firebrick"
   then return {178/255, 34/255, 34/255, alpha}
 
-elseif color == "FloralWhite"
+elseif color == "floralwhite"
   then return {255/255, 250/255, 240/255, alpha}
 
-elseif color == "ForestGreen"
+elseif color == "forestgreen"
   then return {34/255, 139/255, 34/255, alpha}
 
-elseif color == "Fuchsia"
+elseif color == "fuchsia"
   then return {255/255, 0/255, 255/255, alpha}
 
-elseif color == "Gainsboro"
+elseif color == "gainsboro"
   then return {220/255, 220/255, 220/255, alpha}
 
-elseif color == "GhostWhite"
+elseif color == "ghostwhite"
   then return {248/255, 248/255, 255/255, alpha}
 
-elseif color == "Gold"
+elseif color == "gold"
   then return {255/255, 215/255, 0/255, alpha}
 
-elseif color == "GoldenRod"
+elseif color == "goldenrod"
   then return {218/255, 165/255, 32/255, alpha}
 
-elseif color == "Gray" or color == "Grey"
+elseif color == "gray" or color == "grey"
   then return {128/255, 128/255, 128/255, alpha}
 
-elseif color == "Green"
+elseif color == "green"
   then return {0/255, 128/255, 0/255, alpha}
 
-elseif color == "GreenYellow"
+elseif color == "greenyellow"
   then return {173/255, 255/255, 47/255, alpha}
 
-elseif color == "HoneyDew"
+elseif color == "honeydew"
   then return {240/255, 255/255, 240/255, alpha}
 
-elseif color == "HotPink"
+elseif color == "hotpink"
   then return {255/255, 105/255, 180/255, alpha}
 
-elseif color == "IndianRed"
+elseif color == "indianred"
   then return {205/255, 92/255, 92/255, alpha}
 
-elseif color == "Indigo"
+elseif color == "indigo"
   then return {75/255, 0/255, 130/255, alpha}
 
-elseif color == "Ivory"
+elseif color == "ivory"
   then return {255/255, 255/255, 240/255, alpha}
 
-elseif color == "Khaki"
+elseif color == "khaki"
   then return {240/255, 230/255, 140/255, alpha}
 
-elseif color == "Lavender"
+elseif color == "lavender"
   then return {230/255, 230/255, 250/255, alpha}
 
-elseif color == "LavenderBlush"
+elseif color == "lavenderblush"
   then return {255/255, 240/255, 245/255, alpha}
 
-elseif color == "LawnGreen"
+elseif color == "lawngreen"
   then return {124/255, 252/255, 0/255, alpha}
 
-elseif color == "LemonChiffon"
+elseif color == "lemonchiffon"
   then return {255/255, 250/255, 205/255, alpha}
 
-elseif color == "LightBlue"
+elseif color == "lightblue"
   then return {173/255, 216/255, 230/255, alpha}
 
-elseif color == "LightCoral"
+elseif color == "lightcoral"
   then return {224/255, 255/255, 255/255, alpha}
 
-elseif color == "LightGoldenRodYellow"
+elseif color == "lightgoldenrodyellow"
   then return {250/255, 250/255, 210/255, alpha}
 
-elseif color == "LightGray" or color == "LightGrey"
+elseif color == "lightgray" or color == "lightgrey"
   then return {211/255, 211/255, 211/255, alpha}
 
-elseif color == "LightGreen"
+elseif color == "lightgreen"
   then return {144/255, 238/255, 144/255, alpha}
 
-elseif color == "LightPink"
+elseif color == "lightpink"
   then return {255/255, 182/255, 193/255, alpha}
 
-elseif color == "LightSalmon"
+elseif color == "lightsalmon"
   then return {255/255, 160/255, 122/255, alpha}
 
-elseif color == "LightSeaGreen"
+elseif color == "lightseagreen"
   then return {32/255, 178/255, 170/255, alpha}
 
-elseif color == "LightSkyBlue"
+elseif color == "lightskyblue"
   then return {135/255, 206/255, 250/255, alpha}
 
-elseif color == "LightSlateGray" or color == "LightSlateGrey"
+elseif color == "lightslategray" or color == "lightslategrey"
   then return {119/255, 136/255, 153/255, alpha}
 
-elseif color == "LightSteelBlue"
+elseif color == "lightsteelblue"
   then return {176/255, 196/255, 222/255, alpha}
 
-elseif color == "LightYellow"
+elseif color == "lightyellow"
   then return {255/255, 255/255, 224/255, alpha}
 
-elseif color == "Lime"
+elseif color == "lime"
   then return {0/255, 255/255, 0/255, alpha}
 
-elseif color == "LimeGreen"
+elseif color == "limegreen"
   then return {50/255, 205/255, 50/255, alpha}
 
-elseif color == "Linen"
+elseif color == "linen"
   then return {250/255, 240/255, 230/255, alpha}
 
-elseif color == "Magenta"
+elseif color == "magenta"
   then return {255/255, 0/255, 255/255, alpha}
 
-elseif color == "Maroon"
+elseif color == "maroon"
   then return {128/255, 0/255, 0/255, alpha}
 
-elseif color == "MediumAquaMarine"
+elseif color == "mediumaquamarine"
   then return {102/255, 205/255, 170/255, alpha}
 
-elseif color == "MediumBlue"
+elseif color == "mediumblue"
   then return {0/255, 0/255, 205/255, alpha}
 
-elseif color == "MediumOrchid"
+elseif color == "mediumorchid"
   then return {186/255, 85/255, 211/255, alpha}
 
-elseif color == "MediumPurple"
+elseif color == "mediumpurple"
   then return {147/255, 112/255, 219/255, alpha}
 
-elseif color == "MediumSeaGreen"
+elseif color == "mediumseagreen"
   then return {60/255, 179/255, 113/255, alpha}
 
-elseif color == "MediumSlateBlue"
+elseif color == "mediumslateblue"
   then return {123/255, 104/255, 238/255, alpha}
 
-elseif color == "MediumSpringGreen"
+elseif color == "mediumspringgreen"
   then return {0/255, 250/255, 154/255, alpha}
 
-elseif color == "MediumTurquoise"
+elseif color == "mediumturquoise"
   then return {72/255, 209/255, 204/255, alpha}
 
-elseif color == "MediumVioletRed"
+elseif color == "mediumvioletred"
   then return {199/255, 21/255, 133/255, alpha}
 
-elseif color == "MidnightBlue"
+elseif color == "midnightblue"
   then return {25/255, 25/255, 112/255, alpha}
 
-elseif color == "MintCream"
+elseif color == "mintcream"
   then return {245/255, 255/255, 250/255, alpha}
 
-elseif color == "MistyRose"
+elseif color == "mistyrose"
   then return {255/255, 228/255, 225/255, alpha}
 
-elseif color == "Moccasin"
+elseif color == "moccasin"
   then return {255/255, 228/255, 181/255, alpha}
 
-elseif color == "NavajoWhite"
+elseif color == "navajowhite"
   then return {255/255, 222/255, 173/255, alpha}
 
-elseif color == "Navy"
+elseif color == "navy"
   then return {0/255, 0/255, 128/255, alpha}
 
-elseif color == "OldLace"
+elseif color == "oldlace"
   then return {253/255, 245/255, 230/255, alpha}
 
-elseif color == "Olive"
+elseif color == "olive"
   then return {128/255, 128/255, 0/255, alpha}
 
-elseif color == "OliveDrab"
+elseif color == "olivedrab"
   then return {107/255, 142/255, 35/255, alpha}
 
-elseif color == "Orange"
+elseif color == "orange"
   then return {255/255, 165/255, 0/255, alpha}
 
-elseif color == "OrangeRed"
+elseif color == "orangered"
   then return {255/255, 69/255, 0/255, alpha}
 
-elseif color == "Orchid"
+elseif color == "orchid"
   then return {218/255, 112/255, 214/255, alpha}
 
-elseif color == "PaleGoldenRod"
+elseif color == "palegoldenrod"
   then return {238/255, 232/255, 170/255, alpha}
 
-elseif color == "PaleGreen"
+elseif color == "palegreen"
   then return {152/255, 251/255, 152/255, alpha}
 
-elseif color == "PaleTurquoise"
+elseif color == "paleturquoise"
   then return {175/255, 238/255, 238/255, alpha}
 
-elseif color == "PaleVioletRed"
+elseif color == "palevioletred"
   then return {219/255, 112/255, 147/255, alpha}
 
-elseif color == "PapayaWhip"
+elseif color == "papayawhip"
   then return {255/255, 239/255, 213/255, alpha}
 
-elseif color == "PeachPuff"
+elseif color == "peachpuff"
   then return {255/255, 218/255, 185/255, alpha}
 
-elseif color == "Peru"
+elseif color == "peru"
   then return {205/255, 133/255, 63/255, alpha}
 
-elseif color == "Pink"
+elseif color == "pink"
   then return {255/255, 192/255, 203/255, alpha}
 
-elseif color == "Plum"
+elseif color == "plum"
   then return {221/255, 160/255, 221/255, alpha}
 
-elseif color == "PowderBlue"
+elseif color == "powderblue"
   then return {176/255, 224/255, 230/255, alpha}
 
-elseif color == "Purple"
+elseif color == "purple"
   then return {128/255, 0/255, 128/255, alpha}
 
-elseif color == "RebeccaPurple"
+elseif color == "rebeccapurple"
   then return {102/255, 51/255, 153/255, alpha}
 
-elseif color == "Red"
+elseif color == "red"
   then return {255/255, 0/255, 0/255, alpha}
 
-elseif color == "RosyBrown"
+elseif color == "rosybrown"
   then return {188/255, 143/255, 143/255, alpha}
 
-elseif color == "RoyalBlue"
+elseif color == "royalblue"
   then return {65/255, 105/255, 225/255, alpha}
 
-elseif color == "SaddleBrown"
+elseif color == "saddlebrown"
   then return {139/255, 69/255, 19/255, alpha}
 
-elseif color == "Salmon"
+elseif color == "salmon"
   then return {250/255, 128/255, 114/255, alpha}
 
-elseif color == "SandyBrown"
+elseif color == "sandybrown"
   then return {244/255, 164/255, 96/255, alpha}
 
-elseif color == "SeaGreen"
+elseif color == "seagreen"
   then return {46/255, 139/255, 87/255, alpha}
 
-elseif color == "SeaShell"
+elseif color == "seashell"
   then return {255/255, 245/255, 238/255, alpha}
 
-elseif color == "Sienna"
+elseif color == "sienna"
   then return {160/255, 82/255, 45/255, alpha}
 
-elseif color == "Silver"
+elseif color == "silver"
   then return {192/255, 192/255, 192/255, alpha}
 
-elseif color == "SkyBlue"
+elseif color == "skyblue"
   then return {135/255, 206/255, 235/255, alpha}
 
-elseif color == "SlateBlue"
+elseif color == "slateblue"
   then return {106/255, 90/255, 205/255, alpha}
 
-elseif color == "SlateGray" or color == "SlateGrey"
+elseif color == "slategray" or color == "slategrey"
   then return {112/255, 128/255, 144/255, alpha}
 
-elseif color == "Snow"
+elseif color == "snow"
   then return {255/255, 250/255, 250/255, alpha}
 
-elseif color == "SpringGreen"
+elseif color == "springgreen"
   then return {0/255, 255/255, 127/255, alpha}
 
-elseif color == "SteelBlue"
+elseif color == "steelblue"
   then return {70/255, 130/255, 180/255, alpha}
 
-elseif color == "Tan"
+elseif color == "tan"
   then return {210/255, 180/255, 140/255, alpha}
 
-elseif color == "Teal"
+elseif color == "teal"
   then return {0/255, 128/255, 128/255, alpha}
 
-elseif color == "Thistle"
+elseif color == "thistle"
   then return {216/255, 191/255, 216/255, alpha}
 
-elseif color == "Tomato"
+elseif color == "tomato"
   then return {255/255, 99/255, 71/255, alpha}
 
-elseif color == "Turquoise"
+elseif color == "turquoise"
   then return {64/255, 224/255, 208/255, alpha}
 
-elseif color == "Violet"
+elseif color == "violet"
   then return {238/255, 130/255, 238/255, alpha}
 
-elseif color == "Wheat"
+elseif color == "wheat"
   then return {245/255, 222/255, 179/255, alpha}
 
-elseif color == "White"
+elseif color == "white"
   then return {255/255, 255/255, 255/255, alpha}
 
-elseif color == "WhiteSmoke"
+elseif color == "whitesmoke"
   then return {245/255, 245/255, 245/255, alpha}
 
-elseif color == "Yellow"
+elseif color == "yellow"
   then return {255/255, 255/255, 0/255, alpha}
 
-elseif color == "YellowGreen"
-  then return {154/255, 205/255, 50/255, alpha}
-
-
+elseif color == "yellowgreen"
+  then return {154/255, 205/255, 50/255, alpha} 
+  
+else
+    error("'" .. color .. "' is not a valid color. Check spelling.")
 end
-
-
 
 end
