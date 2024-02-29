@@ -1,6 +1,3 @@
---CSS colors to RGB for LÖVE
---By Malmodev
-
 function css(color, alpha)
   alpha = alpha or 1 --alpha channel
 
